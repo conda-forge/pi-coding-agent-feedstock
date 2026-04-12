@@ -2,6 +2,8 @@ conda_build_tool: rattler-build
 github:
   branch_name: main
   tooling_branch_name: main
+provider:
+  osx_arm64: default
 conda_build:
   error_overlinking: true
 conda_forge_output_validation: true

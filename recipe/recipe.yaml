@@ -1,6 +1,6 @@
 context:
   name: pi-coding-agent
-  version: "0.70.2"
+  version: "0.70.5"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://registry.npmjs.org/@mariozechner/pi-coding-agent/-/pi-coding-agent-${{ version }}.tgz
-    sha256: 6eff89a8641bd2d2145e49b807b7fcef8cbd554cf194ffc31d1abe0e360675d5
+    sha256: 0e94f5d8f99b0dc9cb5ad324cb1cfabeb600e44576d0c0d17fcae703a0723115
   - url: https://raw.githubusercontent.com/badlogic/pi-mono/main/LICENSE
     sha256: 0457f5bcec3b3b211605dfb5d1a49042fd638f3686a410fe099c24a25af13c48
     file_name: LICENSE

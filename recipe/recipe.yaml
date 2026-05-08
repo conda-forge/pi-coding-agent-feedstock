@@ -1,15 +1,15 @@
 context:
   name: pi-coding-agent
-  version: "0.73.1"
+  version: "0.74.0"
 
 package:
   name: ${{ name }}
   version: ${{ version }}
 
 source:
-  - url: https://registry.npmjs.org/@mariozechner/pi-coding-agent/-/pi-coding-agent-${{ version }}.tgz
-    sha256: 7bf5d492670c04fd7c599dee7e6eaabff964084affd216766107e6741df7a2e1
-  - url: https://raw.githubusercontent.com/badlogic/pi-mono/main/LICENSE
+  - url: https://registry.npmjs.org/@earendil-works/pi-coding-agent/-/pi-coding-agent-${{ version }}.tgz
+    sha256: 974a73b96195bd7d630e115869ecb5e0dd7a5c3a38ee4926dc99448663d4a344
+  - url: https://raw.githubusercontent.com/earendil-works/pi/main/LICENSE
     sha256: 0457f5bcec3b3b211605dfb5d1a49042fd638f3686a410fe099c24a25af13c48
     file_name: LICENSE
 
@@ -40,8 +40,8 @@ about:
   license_file:
     - LICENSE
     - third-party-licenses.txt
-  homepage: https://github.com/badlogic/pi-mono
-  repository: https://github.com/badlogic/pi-mono
+  homepage: https://github.com/earendil-works/pi
+  repository: https://github.com/earendil-works/pi
 
 extra:
   recipe-maintainers:

@@ -3,13 +3,13 @@ About pi-coding-agent-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pi-coding-agent-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/badlogic/pi-mono
+Home: https://github.com/earendil-works/pi
 
 Package license: MIT
 
 Summary: Coding agent CLI with read, bash, edit, write tools and session management
 
-Development: https://github.com/badlogic/pi-mono
+Development: https://github.com/earendil-works/pi
 
 Current build status
 ====================

@@ -9,6 +9,6 @@ channel_targets:
 macos_machine:
 - x86_64-apple-darwin13.4.0
 nodejs:
-- '22'
+- '26'
 target_platform:
 - osx-64

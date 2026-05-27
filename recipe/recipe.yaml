@@ -14,7 +14,7 @@ source:
     file_name: LICENSE
 
 build:
-  number: 0
+  number: 1
   skip:
     - ppc64le
     - win

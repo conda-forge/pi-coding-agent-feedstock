@@ -15,6 +15,8 @@ source:
 
 build:
   number: 0
+  dynamic_linking:
+    binary_relocation: false
   skip:
     - ppc64le
     - win

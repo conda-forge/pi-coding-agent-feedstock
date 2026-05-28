@@ -1,6 +1,6 @@
 context:
   name: pi-coding-agent
-  version: "0.75.5"
+  version: "0.76.0"
 
 package:
   name: ${{ name }}
@@ -8,13 +8,15 @@ package:
 
 source:
   - url: https://registry.npmjs.org/@earendil-works/pi-coding-agent/-/pi-coding-agent-${{ version }}.tgz
-    sha256: 88fff74d1fcc93343e839aa885eacb35e88cdaab97dac2636b11becc3b2499fc
+    sha256: 68c0866fa36c24adc5ceb66506bb3f429cbeccc4cf876d529b5128a07572a3e2
   - url: https://raw.githubusercontent.com/earendil-works/pi/main/LICENSE
     sha256: 0457f5bcec3b3b211605dfb5d1a49042fd638f3686a410fe099c24a25af13c48
     file_name: LICENSE
 
 build:
-  number: 1
+  number: 0
+  dynamic_linking:
+    binary_relocation: false
   skip:
     - ppc64le
     - win

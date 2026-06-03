@@ -14,12 +14,17 @@ source:
     file_name: LICENSE
 
 build:
-  number: 0
+  number: 1
+  script:
+    file: build
+    env:
+      # Exposed so build.bat can select the target arch's native prebuilts when
+      # cross-compiling win-arm64 on a win-64 runner.
+      target_platform: ${{ target_platform }}
   dynamic_linking:
     binary_relocation: false
   skip:
     - ppc64le
-    - win
 
 requirements:
   build:

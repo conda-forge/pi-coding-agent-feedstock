@@ -8,7 +8,9 @@ npm install -ddd \
     --global \
     ${SRC_DIR}/${tgz}
 
-# Create license report for dependencies
-pnpm install
+# Create license report for dependencies. --ignore-scripts avoids pnpm's
+# ERR_PNPM_IGNORED_BUILDS failure; dependency build scripts are irrelevant to
+# the license scan.
+pnpm install --ignore-scripts
 pnpm-licenses generate-disclaimer --prod --output-file=third-party-licenses.txt
 

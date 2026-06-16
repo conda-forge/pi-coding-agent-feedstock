@@ -208,7 +208,5 @@ Feedstock Maintainers
 
 * [@janjagusch](https://github.com/janjagusch/)
 * [@moritzwilksch](https://github.com/moritzwilksch/)
-
-
-<!-- dummy commit to enable rerendering -->
+* [@xhochy](https://github.com/xhochy/)
 

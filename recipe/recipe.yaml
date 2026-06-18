@@ -1,6 +1,6 @@
 context:
   name: pi-coding-agent
-  version: "0.79.6"
+  version: "0.79.7"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://registry.npmjs.org/@earendil-works/pi-coding-agent/-/pi-coding-agent-${{ version }}.tgz
-    sha256: f5a2941ccea68af49462b22898eaa9968b5c1ec900dbadec08e25b99a9f60bc2
+    sha256: 2cda1beb3c80d451ce5db5dab8276f222d9d1c3c34b2dc46f2afde71c71d4841
   - url: https://raw.githubusercontent.com/earendil-works/pi/main/LICENSE
     sha256: 0457f5bcec3b3b211605dfb5d1a49042fd638f3686a410fe099c24a25af13c48
     file_name: LICENSE

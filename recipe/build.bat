@@ -1,6 +1,11 @@
 @echo on
 setlocal enableextensions
 
+:: Tell `pixi global` to not set CONDA_PREFIX during activation
+:: https://pixi.sh/dev/global_tools/introduction/#opt-out-of-conda_prefix
+mkdir "%PREFIX%\etc\pixi\pi"
+type nul > "%PREFIX%\etc\pixi\pi\global-ignore-conda-prefix"
+
 :: Select the native prebuilt binaries for the TARGET architecture. This matters
 :: when cross-compiling win-arm64 on a win-64 runner: without it npm would pull
 :: the host's x64 optional dependencies instead of the arm64 ones.

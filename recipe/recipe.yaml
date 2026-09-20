@@ -51,6 +51,7 @@ about:
   repository: https://github.com/earendil-works/pi
 
 extra:
+  feedstock-name: pi-coding-agent
   recipe-maintainers:
     - xhochy
     - moritzwilksch
